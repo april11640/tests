@@ -1,12 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>my.tests</groupId>
-  <artifactId>tests</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>pom</packaging>
-  <name>some tests</name>
-  <description>some tests</description>
-  <modules>
-  	<module>tests-thread</module>
-  </modules>
+  <parent>
+    <groupId>my.tests</groupId>
+    <artifactId>tests</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>tests-thread</artifactId>
 </project>
